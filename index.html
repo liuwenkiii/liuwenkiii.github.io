@@ -2,29 +2,25 @@
 layout: default
 title: liuwenkiii's Blog
 ---
-<body>
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1>{{ page.title }}</h1>
-            <h4>几行代码筑春秋</h4>
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+        <h4>几行代码筑春秋</h4>
+    </div>
+</div>
+<div class="container">
+    {% for post in site.posts %}
+    <div class="row">
+        <div class="col">
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <div style="float: right">{{ post.date | date_to_string }}</div>
         </div>
     </div>
-    <div class="container">
-            {% for post in site.posts %}
-            <div class="row">
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                            <div style="float: right">{{ post.date | date_to_string }}</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
-</body>
+    {% endfor %}
+</div>
+    
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
