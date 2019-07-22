@@ -10,16 +10,24 @@ title: liuwenkiii's Blog
     <title>liuwenkiii's Blog</title>
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css"></head>
 <body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>{{ page.title }}</h1>
+            <h3>几行代码筑春秋，一把头发秃成球</h3>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
-            <h2>{{ page.title }}</h2>
-        </div>
-        <div class="row">
-            <ul>
-                {% for post in site.posts %}
-                    <li>{{ post.date | date_to_string }}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ul>
+            {% for post in site.posts %}
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        {{ post.date | date_to_string }}
+                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
         </div>
     </div>
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
