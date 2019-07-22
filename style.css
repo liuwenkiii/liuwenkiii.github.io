@@ -17,3 +17,15 @@ a:focus
 {
     color: #111111;
 }
+
+.float
+{
+    float: left;
+}
+
+.header
+{
+    background-color: #e9ecef;
+    padding: 60px 0px;
+    margin-bottom: 2%;
+}
