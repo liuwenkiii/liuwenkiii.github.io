@@ -17,19 +17,19 @@ title: liuwenkiii's Blog
         </div>
     </div>
     <div class="container">
-        <div class="row">
             {% for post in site.posts %}
-            <div class="col">
-                <div class="card">
-                    <div class="card-body">
-                        {{ post.date | date_to_string }}
-                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                            <div style="float: right">{{ post.date | date_to_string }}</div>
+                        </div>
                     </div>
                 </div>
             </div>
             {% endfor %}
         </div>
-    </div>
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
