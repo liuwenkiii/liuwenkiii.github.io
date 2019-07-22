@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 
-　　<html>
+<html lang="en">
 
-　　<head>
+<head>
 
-　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="./style.css">
 
-　　　　<title>{{ page.title }}</title>
+</head>
 
-　　</head>
+<body>
 
-　　<body>
+    <div class="header">
+        <div class="container">
+            <h1>{{ page.title }}</h1>
+            <h4>{{ post.date | date_to_string }}</h4>
+        </div>
+    </div>
 
-　　　　{{ content }}
+    <div class="container">
+        {{ content }}
+    </div>
 
-　　</body>
-
-　　</html>
+</body>
