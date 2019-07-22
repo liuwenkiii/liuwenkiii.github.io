@@ -18,14 +18,13 @@ a:focus
     color: #111111;
 }
 
-.float
-{
-    float: left;
-}
-
 .header
 {
     background-color: #e9ecef;
-    padding: 60px 0px;
-    margin-bottom: 2%;
+    padding: 30px 0px;
+}
+
+.container
+{
+    padding: 2% 20%;
 }
