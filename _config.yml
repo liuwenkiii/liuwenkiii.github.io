@@ -1,1 +1,14 @@
-baseurl: https://liuwenkiii.github.io
+title: liuwenkiii's Blog
+email: liuwenkiii@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  liuwenkiii's Blog
+baseurl: "" # the subpath of your site, e.g. /blog
+github_username:  liuwenkiii
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-feed

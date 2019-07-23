@@ -1,18 +1,22 @@
 ---
-layout: default
+layout: home
 title: liuwenkiii's Blog
 ---
 
-<link rel="stylesheet" href="./style.css">
-
 <div class="header">
+
     <h1>{{ page.title }}</h1>
+
     <h4>几行代码筑春秋</h4>
+
 </div>
 
 {% for post in site.posts %}
-    <div>
-        {{ post.date | date_to_string }} ->
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+
+    <div class="post-item">
+
+        {{ post.date | date_to_string }} -> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+
     </div>
+
 {% endfor %}
