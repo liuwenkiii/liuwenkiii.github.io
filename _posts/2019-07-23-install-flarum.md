@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Flarum安装流程（附简体中文）
+categories: Flarum
+description: 
+keywords: bbs, flarum
 ---
 
 更新源  
