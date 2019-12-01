@@ -1,5 +1,16 @@
-# liuwenkiii's Blog
-希望可以坚持写下去  
-希望一切都好  
-  
-*2019/07/22*
+jekyll-theme-solid
+=================
+
+A simple and clean jekyll theme without javascript.
+
+Online Demo: <https://mazhuang.org/jekyll-theme-solid>
+
+## Screenshots
+
+* Home page
+
+  ![home page](./images/screenshots/home.png)
+
+* Post page
+
+  ![post page](./images/screenshots/posts.png)
