@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Android：使用 UsageStatsManager.queryUsageState() 返回数据有误
-categories: android
+categories: Android
 description: 这个问题很不google
 keywords: UsageStatsManager, queryUsageState, 应用使用情况
 ---
