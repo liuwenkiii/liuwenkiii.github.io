@@ -579,16 +579,16 @@ btn.addListener(SWT.MouseDown, e -> login());
 
 运行后，我们得到一个圆角按钮。 
 
-![button](images/swt/button.png) 
+![button](https://raw.githubusercontent.com/liuwenkiii/liuwenkiii.github.io/master/images/swt/button.png) 
 
 鼠标移上去会变色。
-![button_hover](images/swt/button_hover.png) 
+![button_hover](https://raw.githubusercontent.com/liuwenkiii/liuwenkiii.github.io/master/images/swt/button_hover.png) 
 
 **至此，我们可以放飞自我了，想写什么样的组件就写什么样的组件！**(叉腰.jpg)  
 
 放一张主界面的图，以下全部都是自定义组件，包括中间那个表格：
 
-![rewrite_login](images/swt/main.jpg)  
+![rewrite_login](https://raw.githubusercontent.com/liuwenkiii/liuwenkiii.github.io/master/images/swt/main.jpg)  
 
 源码全部放在 Github 上了，[点这里](https://github.com/liuwenkiii/Student-Management-System-SWT) 传送。
 
@@ -597,8 +597,8 @@ btn.addListener(SWT.MouseDown, e -> login());
 
 重写的简单的界面：
 
-![rewrite_login](images/swt/rewrite_login.png) 
+![rewrite_login](https://raw.githubusercontent.com/liuwenkiii/liuwenkiii.github.io/master/images/swt/rewrite_login.png) 
 
-![rewrite_main](images/swt/rewrite_main.jpg) 
+![rewrite_main](https://raw.githubusercontent.com/liuwenkiii/liuwenkiii.github.io/master/images/swt/rewrite_main.jpg) 
 
 但这三天给我的收获还是挺多的，虽然 SWT 学好了没啥用，但我现在有点想尝试写一个自己的 GUI 框架了，确实有点膨胀，我明白真正的框架要处理的问题不止于此，要学习的还有很多。共勉！
