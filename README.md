@@ -1,16 +1,5 @@
-jekyll-theme-solid
+Liuwenkiii's Blog
 =================
 
-A simple and clean jekyll theme without javascript.
-
-Online Demo: <https://mazhuang.org/jekyll-theme-solid>
-
-## Screenshots
-
-* Home page
-
-  ![home page](./images/screenshots/home.png)
-
-* Post page
-
-  ![post page](./images/screenshots/posts.png)
+不定期更新，什么都写 
+希望可以一直写下去
